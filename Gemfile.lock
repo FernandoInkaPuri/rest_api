@@ -81,8 +81,6 @@ GEM
     base64 (0.2.0)
     bigdecimal (3.1.6)
     bindex (0.8.1)
-    bootsnap (1.18.3)
-      msgpack (~> 1.2)
     builder (3.2.4)
     bunny (2.22.0)
       amq-protocol (~> 2.3, >= 2.3.1)
@@ -130,11 +128,10 @@ GEM
       net-imap
       net-pop
       net-smtp
-    marcel (1.0.2)
+    marcel (1.0.3)
     matrix (0.4.2)
     mini_mime (1.1.5)
     minitest (5.22.2)
-    msgpack (1.7.2)
     mutex_m (0.2.0)
     net-imap (0.4.10)
       date
@@ -192,7 +189,7 @@ GEM
       rake (>= 12.2)
       thor (~> 1.0, >= 1.2.2)
       zeitwerk (~> 2.6)
-    rake (13.1.0)
+    rake (12.3.3)
     rbtree (0.4.6)
     rdoc (6.6.2)
       psych (>= 4.0.0)
@@ -211,15 +208,15 @@ GEM
       rexml (~> 3.2, >= 3.2.5)
       rubyzip (>= 1.2.2, < 3.0)
       websocket (~> 1.0)
-    serverengine (2.0.7)
+    serverengine (2.1.1)
       sigdump (~> 0.2.2)
     set (1.1.0)
     sigdump (0.2.5)
-    sneakers (2.11.0)
-      bunny (~> 2.12)
+    sneakers (2.12.0)
+      bunny (~> 2.14)
       concurrent-ruby (~> 1.0)
-      rake
-      serverengine (~> 2.0.5)
+      rake (~> 12.3)
+      serverengine (~> 2.1.0)
       thor
     sorted_set (1.0.3)
       rbtree
@@ -260,7 +257,6 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bootsnap
   bunny
   capybara
   debug
