@@ -1,6 +1,6 @@
-FROM ruby:3.0.0
+FROM ruby:3.2
 
-RUN apt-get update -qq && apt-get install -y nodejs postgresql-client
+RUN apt-get update -qq && apt-get install -y nodejs
 WORKDIR /rest_api
 COPY Gemfile /rest_api/Gemfile
 COPY Gemfile.lock /rest_api/Gemfile.lock
