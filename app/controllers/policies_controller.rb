@@ -9,7 +9,7 @@ class PoliciesController < ApplicationController
     veiculo = policy.veiculo
 
     result = {
-      "id": policy.id,
+      "policy_id": policy.id,
       "data_emissao": policy.data_emissao,
       "data_fim_cobertura": policy.data_fim_cobertura,
       "segurado":{
@@ -36,7 +36,7 @@ class PoliciesController < ApplicationController
       veiculo = policy.veiculo
 
       {
-        "id": policy.id,
+        "policy_id": policy.id,
         "data_emissao": policy.data_emissao,
         "data_fim_cobertura": policy.data_fim_cobertura,
         "segurado":{
