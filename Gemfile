@@ -32,6 +32,8 @@ gem 'redis'
 
 gem 'json'
 
+gem 'pry'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

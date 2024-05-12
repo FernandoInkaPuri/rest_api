@@ -82,5 +82,5 @@ Rails.application.configure do
   #   "rest_api:3000"
   # ]
 
-  config.hosts << "rest_api:3000"
+  config.hosts << "rest_api:3005"
 end

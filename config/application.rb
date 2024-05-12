@@ -23,7 +23,6 @@ module RestApi
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-    # Rails.application.config.hosts << "http://localhost:3000"
     Rails.application.config.hosts << /.*/
   end
 end
